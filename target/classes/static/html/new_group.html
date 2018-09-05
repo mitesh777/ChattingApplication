@@ -1,0 +1,73 @@
+<div class="modal-header">
+	<h4 class="modal-title">Create Group</h4>
+	<button type="button" class="close" data-dismiss="modal">&times;</button>
+</div>
+<div class="modal-body">
+	<div class="">
+
+		<div class="profile-userpic">
+			<center>
+				<img src="images/profile_pic.png" id="profile_pic"
+					class="img-responsive" alt="">
+			</center>
+		</div>
+		<br />
+		<!-- SIDEBAR MENU -->
+		<div class="profile-usermenu">
+			<div class="input-group mb-3">
+				<div class="input-group-prepend">
+					<span class="input-group-text" id="group_name">Group Name:</span>
+				</div>
+				<input type="text" class="form-control"
+					placeholder="Enter the name of the group" aria-label="phone"
+					id="groupName" aria-describedby="basic-addon1">
+
+			</div>
+		</div>
+		<ul class="list-group" id="memebersToBeAddedToGroup">
+			<li class="list-group-item active"><center>Group Members</center></li>
+		</ul>
+		<br>
+		<center>
+			<div class="btn-group-vertical" id="divAdd">
+				<button type="button" class="btn btn-success btn-sm" id="btnAddMemeber">Add Member</button>
+			</div>
+		</center>
+		<br> <br>
+
+	</div>
+</div>
+<div class="modal-footer">
+	<div class="btn-group-vertical" id="divCreate">
+		<button type="button" class="btn btn-success btn-sm"
+			id="btnCreateGroup" data-toggle="modal" data-target="#modal">Create</button>
+	</div>
+	<!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+</div>
+<<script type="text/javascript">
+$('#btnCreateGroup').click(function(){
+	
+	var data = {
+	        name: $("#groupName").val(),
+	        email: "miteshkakkar8@gmail.com", 
+	        members: ["hello","meter","run"]
+	             };
+$.ajax({
+      type: "POST",
+      url: "http://172.31.11.47:9079/gc/chat/group/create",
+      data: {
+        name: $("#groupName").val(),
+        email: "abc@gmail.com", 
+        members: [1,2,3]
+             },
+      success: function(result) {
+        alert('ok');
+      },
+      error: function(result) {
+        alert('error');
+      }
+    });
+console.log(data);
+  });
+
+</script>

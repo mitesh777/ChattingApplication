@@ -1,0 +1,39 @@
+.innerScroll{
+    overflow: auto;
+}
+
+
+#addBroadcastModalContent{
+    background-color: #2c3e50;;
+}
+
+
+#searchBar{
+    font-weight: 300;
+}
+
+#usersList{
+    max-height: 60vh;
+}
+
+.input-group > input[type="text"]{
+    background-color: #f0f5fa;
+}
+
+.chatUser{
+    padding: 5px;
+    display: flex;
+    background-color: #263341;;
+    color: #f5f5f5;
+    border-radius: 5px;
+
+}
+
+.chatUserDp > img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.chatUserDetails{
+    flex-grow: 1;
+}

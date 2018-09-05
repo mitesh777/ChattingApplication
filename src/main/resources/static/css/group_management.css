@@ -1,0 +1,55 @@
+.group-pic img {
+    float: none;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+  }
+  
+  .group-title {
+    text-align: center;
+    margin-top: 20px;
+  }
+  div.wrapper { float:right;}
+
+  .group-name {
+    color: #5a7391;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 7px;
+  }
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#listOfUser {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#listOfUser li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;	
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#listOfUser li a:hover:not(.header) {
+  background-color: #eee;
+}
+

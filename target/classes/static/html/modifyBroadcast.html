@@ -1,0 +1,38 @@
+<div class="modal-header">
+	<h5 class="modal-title horizontal-center" id="modifyBroadcastTitle">Edit
+		Broadcast</h5>
+	<button type="button" class="close" data-dismiss="modal"
+		aria-label="Close">
+		<span aria-hidden="true" class="text-white">&times;</span>
+	</button>
+</div>
+<div class="modal-body">
+	<div class="input-group mb-3">
+		<input type="text" class="form-control" value=""
+			aria-label="Broadcast name" aria-describedby="broadcast-name"
+			id="broadcastNameChangeInput">
+		<button class="btn btn-info ml-2" id="editBroadcastNameBtn">
+			<i class="fa fa-pencil"></i>
+		</button>
+	</div>
+	<hr>
+	<div class="input-group mb-3 mt-2" id="searchBar">
+		<input type="text" class="form-control"
+			placeholder="Search for user..." aria-label="search-user"
+			aria-describedby="search-user" id="searchUserInput">
+		<!-- <input type="button" class="btn btn-success ml-1" value="Search" id="searchBtn"> -->
+		<button class="btn btn-outline-success ml-2 rounded-circle"
+			id="searchBtn">
+			<i class="fa fa-arrow-right"></i>
+		</button>
+	</div>
+	<div class="innerScroll" id="usersList">
+		<div id="searchResults"></div>
+		<div id="broadcastMembers" class="mt-5"></div>
+	</div>
+
+
+</div>
+<div class="modal-footer">
+	<button type="button" class="btn btn-danger" id="deleteBroadcastBtn">Delete Broadcast</button>
+</div>

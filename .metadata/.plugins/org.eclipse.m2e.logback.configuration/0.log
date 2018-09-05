@@ -1,0 +1,42 @@
+2018-08-25 11:13:43,009 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.gc.chatapp:chatting_app:0.0.1-SNAPSHOT @ /home/user/git/GC-Chatting-App/ChatingApp:BackUp2.0/pom.xml.
+2018-08-25 11:13:46,502 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /chatting_app/src/main/java
+2018-08-25 11:13:46,503 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /chatting_app/src/main/resources
+2018-08-25 11:13:46,528 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /chatting_app/src/main/resources
+2018-08-25 11:13:46,535 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /chatting_app/src/test/java
+2018-08-25 11:13:46,536 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.gc.chatapp:chatting_app:0.0.1-SNAPSHOT @ /home/user/git/GC-Chatting-App/ChatingApp:BackUp2.0/pom.xml.
+2018-08-25 11:13:50,579 [Worker-10] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 10 sec
+2018-08-25 11:13:54,210 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.gc.chatapp:chatting_app:0.0.1-SNAPSHOT @ /home/user/git/GC-Chatting-App/ChatingApp:BackUp2.0/pom.xml.
+2018-08-25 11:13:55,146 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-25 11:13:55,154 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-08-25 11:13:55,224 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 165 resources
+2018-08-25 11:13:56,669 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-25 11:13:56,669 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/user/git/GC-Chatting-App/ChatingApp:BackUp2.0/src/test/resources
+2018-08-25 11:17:03,300 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-08-25 11:17:03,501 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.gc.chatapp:chatting_app:0.0.1-SNAPSHOT @ /home/user/git/GC-Chatting-App/ChatingApp:BackUp2.0/pom.xml.
+2018-08-25 11:17:04,248 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /chatting_app/src/main/java
+2018-08-25 11:17:04,249 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /chatting_app/src/main/resources
+2018-08-25 11:17:04,251 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /chatting_app/src/main/resources
+2018-08-25 11:17:04,253 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /chatting_app/src/test/java
+2018-08-25 11:17:05,188 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.gc.chatapp:chatting_app:0.0.1-SNAPSHOT @ /home/user/git/GC-Chatting-App/ChatingApp:BackUp2.0/pom.xml.
+2018-08-25 11:17:05,769 [Worker-12] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for chatting_app
+2018-08-25 11:17:05,777 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2018-08-25 11:17:06,763 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-25 11:17:06,765 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-08-25 11:17:06,768 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 165 resources
+2018-08-25 11:17:06,858 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-25 11:17:06,858 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/user/git/GC-Chatting-App/ChatingApp:BackUp2.0/src/test/resources
+2018-08-25 11:24:32,917 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-25 11:24:32,925 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-08-25 11:24:32,933 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 165 resources
+2018-08-25 11:24:32,940 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-25 11:24:32,940 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/user/git/GC-Chatting-App/ChatingApp:BackUp2.0/src/test/resources
+2018-08-25 11:25:27,896 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-25 11:25:27,901 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-08-25 11:25:27,909 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 165 resources
+2018-08-25 11:25:27,916 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-25 11:25:27,916 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/user/git/GC-Chatting-App/ChatingApp:BackUp2.0/src/test/resources
+2018-08-25 11:26:20,917 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-25 11:26:20,922 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-08-25 11:26:20,927 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 165 resources
+2018-08-25 11:26:20,933 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-25 11:26:20,933 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/user/git/GC-Chatting-App/ChatingApp:BackUp2.0/src/test/resources

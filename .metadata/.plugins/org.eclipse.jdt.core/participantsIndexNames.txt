@@ -1,0 +1,5 @@
+INDEX VERSION 1.127
+/home/user/git/GC-Chatting-App/ChatingApp/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3990047548.index
+/chatting_app/src/main/java
+/home/user/git/GC-Chatting-App/ChatingApp/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3226736417.index
+/chatting_app/src/main/java

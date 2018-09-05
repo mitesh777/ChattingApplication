@@ -1,0 +1,96 @@
+
+<div class="modal-header">
+    <h4 class="modal-title">Register</h4>
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+</div>
+<div class="modal-body">
+    <div class="">
+    
+        <div class="profile-userpic">
+            <center>
+                <img src="images/register.png" id="register-pic" class="img-responsive" alt="Profile Picture"  style="height:50%;width:25%;">
+            </center>
+        </div>
+      
+        <div class="profile-usermenu">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend register-field" >
+                    <span class="input-group-text register-field-span" id="reg-user_name" >Name</span>
+                </div>
+                <input type="text" class="form-control" pattern="[A-Za-z]" placeholder="Enter User Name" minlength="3" maxlength="50" aria-label="phone"
+                    id="reg-userName" aria-describedby="basic-addon1">
+               
+            </div>
+            <center><button type="button" class="btn btn-outline-danger btn-sm" id="reg-userName-error" disabled></button></center>
+			<br>          
+			
+            <div class="input-group mb-3">
+                <div class="input-group-prepend register-field">
+                    <span class="input-group-text register-field-span">Email ID</span>
+                </div>
+                    <input type="email" class="form-control" placeholder="Enter Email ID" aria-label="phone" id="reg-email" aria-describedby="basic-addon1">
+            </div>
+<!--                 <label class="" ></label> -->
+           	<center><button type="button" class="btn btn-outline-danger btn-sm" id="reg-email-error" disabled></button></center>
+            <br>
+            
+            <div class="input-group mb-3">
+                <div class="input-group-prepend register-field">
+                    <span class="input-group-text register-field-span">Phone</span>
+                </div>
+                <input type="number" class="form-control" placeholder="Enter Valid Phone Number" minlength="10" maxlength="20" aria-label="phone"
+                    id="reg-phone" aria-describedby="basic-addon1">
+            </div>
+            <center><button type="button" class="btn btn-outline-danger btn-sm" id="reg-phone-error" disabled></button></center>
+			<br>
+			
+            <div class="input-group mb-3">
+                <div class="input-group-prepend register-field">
+                    <span class="input-group-text register-field-span">Date Of Birth</span>
+                </div>
+                <input type="date" class="form-control" placeholder="Enter Date of Birth" aria-label="dob" id="reg-dob" aria-describedby="basic-addon1">
+            </div>
+            <br>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend register-field">
+                    <label class="input-group-text register-field-span" for="inputGroupSelect01">Gender</label>
+                </div>
+				 <select class="custom-select" id="reg-gender">
+                    <option selected>Select Gender</option>
+                    <option value="MALE">Male</option>
+                    <option value="FEMALE">Female</option>
+                    <option value="OTHER">Other</option>
+                </select>
+                
+            </div>
+            <br>
+            
+            <div class="input-group mb-3">
+                <div class="input-group-prepend register-field">
+                    <span class="input-group-text register-field-span">Password</span>
+                </div>
+                <input type="password" class="form-control" placeholder="Enter New Password" aria-label="phone" id="reg-newPassword" aria-describedby="basic-addon1">
+            </div>
+            <center><button type="button" class="btn btn-outline-danger btn-sm" id="reg-newPassword-error" disabled></button></center>
+			<br>
+			            
+            <div class="input-group mb-3">
+                <div class="input-group-prepend register-field">
+                    <span class="input-group-text register-field-span">Confirm</span>
+                </div>
+                <input type="password" class="form-control" placeholder="Confirm Password" aria-label="phone" id="reg-confirmPassword" aria-describedby="basic-addon1">
+            </div>
+            <center><button type="button" class="btn btn-outline-danger btn-sm" id="reg-confirmPassword-error" disabled></button></center>
+			<br>
+            
+        </div>
+        
+	<center>
+        <div class="btn-group-vertical" id="reg-divRegister">
+            <button type="button" class="btn btn-lg btn-primary" id="reg-btnRegister" data-toggle="modal" data-target="#myModal" >Register</button>
+        </div>
+        </center>
+        <br>
+        <br>
+    </div>
+</div>
